@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://team-task-manager-alpha-six.vercel.app/",
+    origin: "https://team-task-manager-alpha-six.vercel.app",
     credentials: true,
   })
 );
