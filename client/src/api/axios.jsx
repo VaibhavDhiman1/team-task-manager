@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://team-task-manager-production-2949.up.railway.app/",
 });
 
 API.interceptors.request.use((config) => {
