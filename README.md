@@ -6,10 +6,10 @@ A full-stack MERN application for managing team projects, tasks, and collaborati
 
 ## Live Demo
 
-Frontend:
+### Frontend
 https://team-task-manager-alpha-six.vercel.app
 
-Backend:
+### Backend
 https://team-task-manager-production-2949.up.railway.app
 
 ---
@@ -38,13 +38,42 @@ https://team-task-manager-production-2949.up.railway.app
 ### Team Management
 - Add Members to Projects
 - Team Member Display
-- Role-based Access Control
+- Role-Based Access Control
 
 ### Dashboard
 - Total Projects
 - Total Tasks
 - Overdue Tasks
 - Recent Tasks Overview
+
+---
+
+## Test Credentials
+
+### Admin Account
+
+Email:
+```bash
+admin@test.com
+```
+
+Password:
+```bash
+admin123
+```
+
+This account has ADMIN access and can:
+- Create Projects
+- Add Members
+- Create Tasks
+- Delete Tasks
+- Delete Projects
+
+---
+
+### Member Account
+
+You can create a new account using the signup page to test MEMBER functionality.
 
 ---
 
@@ -64,11 +93,11 @@ https://team-task-manager-production-2949.up.railway.app
 
 ---
 
-### Admin Access Note
+## Admin Access Note
 
 By default, all newly registered users are assigned the `MEMBER` role.
 
-To create an ADMIN account:
+To manually create an ADMIN account:
 
 1. Open MongoDB Atlas
 2. Go to the `users` collection
@@ -119,7 +148,7 @@ git clone YOUR_GITHUB_REPO_URL
 
 ---
 
-### Backend Setup
+## Backend Setup
 
 ```bash
 cd server
@@ -141,7 +170,7 @@ CLIENT_URL=http://localhost:5173
 
 ---
 
-### Frontend Setup
+## Frontend Setup
 
 ```bash
 cd client
